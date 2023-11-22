@@ -1,0 +1,102 @@
+ul{
+    list-style:none ;
+  }
+  ul .nav-item{
+    float: left;
+    line-height: 50px;
+  }
+  .nav-link{
+    color: #333 !important;
+  }
+  .starting{
+    margin-top:150px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .starting h2{
+    font-size: 30px;
+    font-weight: 700;
+  }
+  #form input{
+    max-width: 50%;
+    margin: 10px auto;
+  }
+  #form #email{
+    width: 80%;
+  }
+  .icon{
+    font-size: 50px;
+    color: blue;
+  }
+  #how-it-works{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+  #Pricing{
+    margin-top: 80px;
+    display: flex;
+    text-align: center;
+  }
+  .product{
+    border: 1px solid black;
+    width: calc(100% / 3);
+    margin: 0 10px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .product-name{
+    font-weight: bold;
+    background: #ccc;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px 0;
+  }
+  ol{
+    list-style: none;
+  }
+  .product .btn{
+    max-width: 80px;
+    margin-bottom: 10px;
+  }
+  .footer-link ul li a{
+    text-decoration: none;
+  color: #fff;
+  }
+  .footer-content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    padding: 20px 20px 0 0;
+  }
+  .footer-link ul li{
+    float: left;
+    margin: 0 10px;
+  }
+  
+  @media (max-width:768px){
+    .starting{
+      margin-top: 200px;
+    }
+    #Pricing{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .product{
+      margin-top: 20px;
+      width: 250px;
+    }
+    .footer-content{
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-link{
+      margin-bottom: 10px;
+    }
+  }
